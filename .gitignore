@@ -1,0 +1,22 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache and test results
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Playwright test artifacts
+test-results/
+playwright-report/
+blob-report/
+
+# Editor and OS files
+.DS_Store
+.vscode/

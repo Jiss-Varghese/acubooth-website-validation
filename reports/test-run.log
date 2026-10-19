@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.4, pytest-9.1.1, pluggy-1.7.0 -- /Users/jissvarghese/Documents/acubooth-website-validation/.venv/bin/python
+cachedir: .pytest_cache
+metadata: {'Python': '3.11.4', 'Platform': 'macOS-26.6.2-arm64-arm-64bit', 'Packages': {'pytest': '9.1.1', 'pluggy': '1.7.0'}, 'Plugins': {'metadata': '3.1.1', 'html': '4.2.0'}}
+rootdir: /Users/jissvarghese/Documents/acubooth-website-validation
+configfile: pytest.ini
+testpaths: tests
+plugins: metadata-3.1.1, html-4.2.0
+collecting ... collected 4 items
+
+tests/test_homepage.py::test_homepage_loads PASSED                       [ 25%]
+tests/test_navigation.py::test_internal_navigation_links PASSED          [ 50%]
+tests/test_page_content.py::test_homepage_has_title_and_content PASSED   [ 75%]
+tests/test_public_page.py::test_public_page_opens PASSED                 [100%]
+
+- Generated html report: file:///Users/jissvarghese/Documents/acubooth-website-validation/reports/test-report.html -
+============================== 4 passed in 3.07s ===============================
